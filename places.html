@@ -20,13 +20,23 @@
       integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
       crossorigin="anonymous"
     ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <style>
-      .rounded-img {
-        width: 60%;
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
         border-radius: 50%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-        padding: 0.6em;
-        margin-bottom: 1em;
+        width: 75%;
+        margin: auto;
       }
     </style>
   </head>
@@ -60,43 +70,74 @@
       </div>
     </nav>
     <div class="container my-5">
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
         <div class="col">
-          <div class="card" >
-            <img src="img.jpg" class="card-img-top" alt="..." />
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/12/300"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">See</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                quos maiores adipisci voluptas facilis. Cupiditate incidunt
+                sequi accusamus reiciendis! Nihil vitae illo repellat ducimus
+                modi?
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a
+                href="https://picsum.photos/id/12/1500"
+                class="btn btn-primary"
+                target="_blank"
+                >Large photo</a
+              >
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card" >
-            <img src="img.jpg" class="card-img-top" alt="..." />
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/28/300"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Forest</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Eligendi recusandae facilis culpa dolores sed voluptatibus,
+                adipisci nam voluptatem autem repellendus.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a
+                href="https://picsum.photos/id/28/1500"
+                class="btn btn-primary"
+                target="_blank"
+                >Large photo</a
+              >
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card" >
-            <img src="img.jpg" class="card-img-top" alt="..." />
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/15/300"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">River</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+                recusandae, obcaecati architecto aspernatur ipsum sequi corrupti
+                dolore officia dolorem ipsa impedit ut soluta.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a
+                href="https://picsum.photos/id/15/1500"
+                class="btn btn-primary"
+                target="_blank"
+                >Large photo</a
+              >
             </div>
           </div>
         </div>
